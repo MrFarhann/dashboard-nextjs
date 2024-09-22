@@ -5,20 +5,38 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --bg-secondary: #f0f0f0;
+  --color-primary: #242424;
+  --color-secondary: #424242;
+  --color-tertiary: #707070;
+  --color-blue-: #4F52B2;
+  --font-size-base: 14px;
+  --font-size-small: 12px;
+  --font-size-xsmall: 10px;
+  --border-color: #0000000D;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: #888;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
 }
+
 
 @layer utilities {
   .text-balance {
