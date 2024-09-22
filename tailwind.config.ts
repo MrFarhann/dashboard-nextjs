@@ -11,6 +11,17 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        backgroundSecondary: "var(--bg-secondary)",
+        colorPrimary: "var(--color-primary)",
+        colorSecondary: "var(--color-secondary)",
+        colorTertiary: "var(--color-tertiary)",
+        colorBlue: "var(--color-blue-)",
+        borderColor: "var(--border-color)"
+      },
+      fontSize: {
+        fontBase: "var(--font-size-base)",
+        fontSmall: "var(--font-size-small)",
+        fontXSmall: "var(--font-size-xsmall)",
       },
     },
   },
